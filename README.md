@@ -14,4 +14,4 @@ For example:
 This was the intended purpose of the script. Of course you may simply keep it stand alone.
 
 # Notes:
-Make sure to double check permissions of the script and the link.
+Make sure to double check permissions of the script and the linked command.
