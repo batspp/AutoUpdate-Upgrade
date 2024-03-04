@@ -5,11 +5,11 @@ This script is meant to run the update and upgrade command on Linux. The "upgrat
 
 # Setting it to a command.
 find your $PATH by typing:
-  echo $PATH
+  "echo $PATH"
 
 if "/usr/bin" is returned for example, you can link the script to a command of your choice. 
 For example:
-  ln -s /path/to/script /usr/bin/upgrate
+  "ln -s /path/to/script /usr/bin/upgrate"
 
 This was the intended purpose of the script. Of course you may simply keep it stand alone.
 
