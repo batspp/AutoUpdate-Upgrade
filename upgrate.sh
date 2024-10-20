@@ -1,6 +1,6 @@
 #Upgrate function.
 upgrate() {
-        echo -e "\n\t\tStarting update and upgrade...\n"
+        echo -e "\n\t\tStarting update...\n"
         sudo apt update
         
         echo -e "\n\t\tUpdate complete...moving on...\n"
@@ -8,11 +8,11 @@ upgrate() {
 }       
 
 if [ $EUID -ne 0 ]; then
-        echo -e "\n\tNo sudo? Oh well...it's just an update/upgrade command.\n"
+        echo -e "\n\tNo sudo? Would you type in your password like you're supposed to?\n"
         upgrate
 else    
-        echo -e "\n\tThanks for using sudo, smart person!"
+        echo -e "\n\tThanks for using sudo. Finally...someone who knows how this works!"
         upgrate
 fi
 
-echo -e "\n\tAll done here. Continue on with your shinanigans, human..\n"
+echo -e "\n\tAll done here. Continue on with your shenanigans!\n"
